@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links a,
+  .navbar button {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .btn-outline {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .btn-black {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .package-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 30%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .image-box {
+    background: #ddd;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .package-card h3 {
+    margin: 0 0 5px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .booking-section {
+    background: #fff;
+    border-top: 1px solid #ccc;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-width {
+    flex: 1 1 100%;
+  }
+  
+  .form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .footer {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
